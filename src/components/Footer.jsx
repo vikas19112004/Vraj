@@ -5,7 +5,7 @@ export default function Footer() {
         <div className="footer">
             <div className="footer-div">
                 <div className="footer-div-div-1">
-                    <img src="src/assets/Logo.png" alt="" id="logo" className="w-[17rem] brightness-200 max-[450px]:w-[10rem]" />
+                    <img src="/Logo.png" alt="" id="logo" className="w-[17rem] brightness-200 max-[450px]:w-[10rem]" />
                     <p>Enjoy the best rides at unbeatable prices, with safe, comfortable, and reliable travel across Braj—serving you with devotion and care!</p>
                     <div className="footer-div-div-1-div">
                         <img src="https://ucarecdn.com/6e781e5c-6202-4172-ad51-21f2a0a53819/-/preview/170x50/" alt="" />

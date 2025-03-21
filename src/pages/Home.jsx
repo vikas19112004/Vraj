@@ -52,17 +52,17 @@ const Home = () => {
   ];
 
   let cardImg = [
-    "src/assets/Card-img-Vrindawan.png",
-    "src/assets/Card-img-Mathura.png",
-    "src/assets/Card-img-Goverdhan.png",
-    "src/assets/Card-img-Barsana.png",
-    "src/assets/Card-img-NandGao.png",
+    "/Card-img-Vrindawan.png",
+    "/Card-img-Mathura.png",
+    "/Card-img-Goverdhan.png",
+    "/Card-img-Barsana.png",
+    "/Card-img-NandGao.png",
   ];
 
   let serviCardImg = [
-    "src/assets/Service-card-image1.png",
-    "src/assets/Service-card-image1.png",
-    "src/assets/Service-card-image1.png",
+    "/Service-card-image1.png",
+    "/Service-card-image1.png",
+    "/Service-card-image1.png",
   ];
 
   let serviCardTitle = [
@@ -76,7 +76,7 @@ const Home = () => {
       <div className='home-video'>
         <div className='video'>
           <video autoPlay loop muted playsInline style={{ width: "100%", }}>
-            <source src="src/assets/Home-video.mp4" type="video/mp4" />
+            <source src="/Home-video.mp4" type="video/mp4" />
           </video>
         </div>
         <div className='home-video-content'>
@@ -91,12 +91,12 @@ const Home = () => {
       <div className='home-content'>
         <div className="explore-vraj">
           <div className="explore-vraj-bg-img">
-            <img src="src/assets/Home-page-bg.jpg" alt="image" />
-            <img src="src/assets/Home-page-bg2.png" alt="image" />
+            <img src="/Home-page-bg.jpg" alt="image" />
+            <img src="/Home-page-bg2.png" alt="image" />
           </div>
           <div className="bike-image">
             <h2>Explore Braj On Two Wheels</h2>
-            <img src="src/assets/Home-bike-image.png" alt="" />
+            <img src="/Home-bike-image.png" alt="" />
           </div>
         </div>
 

@@ -1,5 +1,5 @@
 .footer {
-    background: linear-gradient(90deg, rgba(126, 0, 80, 0.5), rgba(126, 0, 80, 0.5)), url("src/assets/Footer-bg-image.png");
+    background: linear-gradient(90deg, rgba(126, 0, 80, 0.5), rgba(126, 0, 80, 0.5)), url("/Footer-bg-image.png");
     display: flex;
     flex-direction: column;
     padding: 4rem 5rem 1rem;
