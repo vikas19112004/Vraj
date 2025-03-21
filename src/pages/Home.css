@@ -1,0 +1,259 @@
+.home-video {
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.home-video .video {
+    position: relative;
+    z-index: -1;
+    height: 90vh;
+}
+
+.home-video .home-video-content {
+    position: absolute;
+    z-index: 2;
+    top: 4.8rem;
+    background: linear-gradient(rgba(59, 0, 0, 0.547) 80%, #fce7f3 90%);
+    height: 100%;
+    width: 100%;
+    /* display: flex; */
+    /* justify-content: space-between; */
+}
+
+.home-greeting {
+    font-family: "Corinthia", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 5rem;
+    color: rgb(252, 252, 252);
+    position: relative;
+    z-index: 0;
+    top: 15%;
+    left: 7%;
+    width: 50%;
+}
+
+.home-video .home-video-content .book-now {
+    z-index: 1;
+    color: white;
+    background: rgba(123, 235, 255, 0.33);
+    backdrop-filter: blur(5px);
+    border: 2px solid rgb(55, 82, 255);
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px 1px rgba(255, 255, 255, 0.325);
+    padding: 2rem 3rem;
+    width: 37%;
+    position: relative;
+    top: 10%;
+    right:2%;
+    margin: 0rem 0.5rem 3rem 0rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+    justify-self: end;
+}
+
+.home-video .home-video-content .book-now p {
+    font-size: 1.5rem;
+    color: rgb(255, 0, 187);
+    line-height: 2rem;
+    font-weight: 600;
+}
+
+.home-video .home-video-content .book-now a {
+    font-size: 1.3rem;
+    width: 9rem;
+    background-color: rgb(197, 75, 0);
+    line-height: 3rem;
+    text-align: center;
+    border: 1px solid rgb(121, 46, 0);
+    border-radius: 10px;
+    align-self: center;
+}
+
+.home-content {
+    width: 100%;
+    padding: 2rem 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+}
+
+.explore-vraj {
+    width: 95%;
+    height: 600px;
+    /* border: 1px rgb(67, 67, 67) solid; */
+    border-radius: 10px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    /* z-index: 4; */
+}
+
+.explore-vraj-bg-img {
+    height: 600px;
+    /* overflow: hidden; */
+    display: flex;
+    flex-direction: row;
+    /* position: absolute;  */
+}
+
+.explore-vraj-bg-img img {
+    width: 100%;
+    height: 600px;
+    border-radius: 10px;
+}
+
+.bike-image {
+    width: 100%;
+    height: 600px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) 10%, rgba(180, 143, 143, 0.573) 42%, rgb(155, 114, 130) 50%, rgba(119, 0, 58, 0.7) 90%);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: space-evenly;
+    /* padding: 1rem; */
+    border-radius: 10px;
+    padding-right: 3rem;
+    
+}
+
+.bike-image h2 {
+    font-family: 'poppins', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    font-size: 3rem;
+    width: 40%;
+    line-height: 4rem;
+    letter-spacing: 1px;
+    /* margin-top: 4rem; */
+    /* margin-left: -90px; */
+    background: linear-gradient(135deg, #00495c, #5d0046);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: animation-gradient 2.5s linear infinite;
+    filter: brightness(1.5);
+    margin-right: 15%;
+}
+
+.bike-image img {
+    height: 300px;
+    align-self: flex-end;
+}
+
+.services {
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) -1%, rgb(177, 255, 219) 55%, rgba(0, 0, 0, 0));
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5rem 0rem;
+}
+
+.home hr {
+    height: 2px;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0) -1%, rgb(255, 0, 144) 55%, rgba(0, 0, 0, 0));
+    border: none;
+}
+
+.home #home-hr1 {
+    margin-top: 7rem;
+}
+
+@media (width <= 450px) {
+    .services {
+        padding: 1rem 0rem 0rem;
+    }
+
+    .home-greeting {
+        font-weight: 500;
+        font-size: 3rem;
+        top: 10%;
+        left: 7%;
+        line-height: 3rem;
+    }
+
+    .home-video .home-video-content .book-now {
+        padding: 1rem ;
+        width: 60%;
+        top: 10%;
+        right:2%;
+        gap: 1rem;
+        justify-self: end;
+    }
+
+    .home-video .home-video-content .book-now p {
+        font-size: 0.9rem;
+        line-height: 1rem;
+        font-weight: 400;
+        text-align: center;
+    }
+    
+    .home-video .home-video-content .book-now a {
+        font-size: 1rem;
+        width: 6rem;
+        line-height: 2.3rem;
+    }
+
+    .home-video .home-video-content {
+        top: 3.5rem;
+        background: linear-gradient(rgba(59, 0, 0, 0.547) 50%, #fce7f3 60%);
+        height: 50%;
+        width: 100%;
+    }
+
+    .home-video .video {
+        height: 60vh;
+    }
+
+    .home-content {
+        padding: 2rem 2rem;
+        margin-top: 0rem;
+    }
+
+    .explore-vraj {
+        height: 450px;
+    }
+    
+    .explore-vraj-bg-img {
+        height: 450px;
+        flex-direction: column;
+    }
+    
+    .explore-vraj-bg-img img {
+        border-radius: 0px;
+    }
+
+    .bike-image {
+        height: 450px;
+        background: linear-gradient(rgba(0, 0, 0, 0) 10%, rgba(180, 143, 143, 0.573) 42%, rgb(155, 114, 130) 50%, rgba(119, 0, 58, 0.7) 90%);
+        align-items: center;
+        justify-content: end;
+        border-radius: 10px;
+        padding: 1rem;    
+    }
+
+    .bike-image h2 {
+        font-size: 2rem;
+        text-align: center;
+        font-weight: bold;
+        width: 70%;
+        line-height: 2rem;
+        letter-spacing: 1px;
+    }
+
+    .bike-image img {
+        height: 120px;
+        align-self: flex-end;
+    }
+}
